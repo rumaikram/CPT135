@@ -1,6 +1,9 @@
 #Created by Ruma Ikram 10/08/2019
 
+/*/ In this project, the program converts the given input decimal number to its binary form, performs bitwise rotation to the 
+    number, and then shows the rotation result as decimal number.
 
+----------------------------------------------------------------------------------------------------------------------------------------
 ''' Function Definition '''
 def decimal_to_binary(dec):  # Function to convert decimal to binary
     a = bin(dec).replace("0b","")
@@ -50,7 +53,4 @@ outFile.close() # closing the output File
 
 
 
-  
-# def binary_rotation(binaryNumber, direction, steps):
-#     return (binaryNumber << steps)|(binaryNumber >> (INT_BITS - steps)) 
-# 
+
